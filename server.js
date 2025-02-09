@@ -91,7 +91,6 @@ app.post("/send-transaction-email", async (req, res) => {
   }
 });
 
-// ✅ Debugging route to check if the server is running
 app.get("/", (req, res) => {
   res.send("Backend is running!");
 });
